@@ -18,9 +18,9 @@ pnpm install react-notion-sortable-tree
 
 ## Usage
 
-If you want to style like Notion, please refer to [here](https://github.com/suimenkathemove/react-notion-sortable-tree/blob/main/src/components/notion-version/index.tsx).
+If you want to style like Notion, please refer to [here](https://github.com/kato-yoshiharu/react-notion-sortable-tree/blob/main/src/components/notion-version/index.tsx).
 
-Please refer to [here](https://github.com/suimenkathemove/react-notion-sortable-tree/blob/main/src/components/notion-version/index.stories.tsx) for logic.
+Please refer to [here](https://github.com/kato-yoshiharu/react-notion-sortable-tree/blob/main/src/components/notion-version/index.stories.tsx) for logic.
 
 ## Running Locally
 
