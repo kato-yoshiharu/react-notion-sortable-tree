@@ -334,7 +334,7 @@ const _ReactNotionSortableTree = <
   const ghostRect = useMemo((): Rect | null => {
     if (fromItem == null || pointerMovingDistance == null) return null;
     const fromElement = itemElementRefMap.current.get(fromItem.id)?.current;
-    invariant(fromElement != null, "fromElement should exist");
+    if (fromElement == null) return null;
     const fromRect = fromElement.getBoundingClientRect();
 
     return {
